@@ -1,0 +1,2 @@
+timestamp,model_type,model_path,feature_columns_path,train_file,val_file,train_sha256,val_sha256,accuracy,f1,precision,recall
+20260109-221847,LogisticRegression,models\logreg_rain_20260109-221847.joblib,models\feature_columns_20260109-221847.json,data/raw/rain_supervised_train.csv,data/raw/rain_supervised_val.csv,a02ec2ab2fe6d1c4188083404051e249a55ea58282ef26cc88a674c8b0b9cb05,7040408503c615433b1d2a35996bc59d811e872026d23a2313015f4e36652ca4,0.9009,0.8582057518958364,0.8707897793263647,0.8459802538787023
