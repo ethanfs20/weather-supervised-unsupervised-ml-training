@@ -7,7 +7,8 @@ import pandas as pd
 
 
 MODELS_DIR = "models"
-VAL_CSV = "data/raw/rain_supervised_val.csv"
+VAL_CSV = "data/processed/real_rain_val_lag.csv"
+
 
 
 def newest_file(pattern: str) -> str:
